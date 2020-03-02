@@ -1,0 +1,19 @@
+a {
+    cursor: pointer;
+    
+}
+a:hover {
+    text-decoration: none;
+}
+
+div {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.recipe-desc {
+    max-height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

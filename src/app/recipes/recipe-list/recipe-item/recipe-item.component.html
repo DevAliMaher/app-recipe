@@ -1,0 +1,21 @@
+<a
+  [routerLink]="[index]"
+  routerLinkActive="active"
+  class="list-group-item"
+>
+  <div class="row align-items-center">
+    <div class="col-sm-8">
+      <h6 class="list-group-item-heading">{{ recipe.name }}</h6>
+      <div class="recipe-desc">
+        <p class="list-group-item-text">{{ recipe.description }}</p>
+      </div>
+    </div>
+    <div class="col-sm-4 d-none d-sm-block px-0">
+      <img
+        [src]="recipe.imagePath"
+        alt="{{ recipe.name }}"
+        class="img-fluid"
+      />
+    </div>
+  </div>
+</a>
